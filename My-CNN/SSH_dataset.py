@@ -32,7 +32,7 @@ def hamiltonian_general(boundaries,M,v,w):
 # ---------------------------------------------------------------------------------------------------
     
 def add_disorder(diag,W):
-    """This function adds disorder to a diagonal of the hamiltonian given amagnitude for the disorder 
+    """This function adds disorder to a diagonal of the hamiltonian given magnitude for the disorder 
     strength. """
     W1=W/2
     W2=W
