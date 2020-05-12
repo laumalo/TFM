@@ -26,7 +26,7 @@ from torch.utils import data
     
 def plot_examples(loader,fname):
     """Given a loader iterates into a batch and plots 10 examples images of the dataset selected. The
-    plot of the 10 examples is saved in a file named fname."""
+    plot of the 10 examples is saved in a file named fname in the folder results."""
     dataiter = iter(loader)
     plt.figure()
     for i in range(10):
@@ -43,7 +43,7 @@ def plot_examples(loader,fname):
 # ------------------------------------------------------------------------------------------
       
 class Dataset_Train(data.Dataset):
-  'Characterizes a dataset for PyTorch'
+"""Creates and characterizes the Training Dataset."""
   def __init__(self, list_IDs, labels,transform = None):
         'Initialization'
         self.labels = labels
@@ -70,7 +70,7 @@ class Dataset_Train(data.Dataset):
 # ------------------------------------------------------------------------------------------
       
 class Dataset_Valid(data.Dataset):
-  'Characterizes a dataset for PyTorch'
+"""Creates and characterizes the Validation Dataset."""
   def __init__(self, list_IDs, labels, transform = None):
         'Initialization'
         self.labels = labels
@@ -97,7 +97,7 @@ class Dataset_Valid(data.Dataset):
 # ------------------------------------------------------------------------------------------
       
 class Dataset_Test(data.Dataset):
-  'Characterizes a dataset for PyTorch'
+"""Creates and characterizes the Test Dataset."""
   def __init__(self, list_IDs, labels, transform = None):
         'Initialization'
         self.labels = labels
@@ -121,10 +121,6 @@ class Dataset_Test(data.Dataset):
         y = Variable(y).type(torch.LongTensor)
         return X, y   
     
-#%%
-        
-    
-        
 #%%
 
 # ------------------------------------------------------------------------------------------
@@ -150,6 +146,8 @@ classes = ['trivial', 'topological']
 # ------------------------------------------------------------------------------------------
 
 #select a dataset
+"""It has to be introduced the name of the folder cointaning de Traning, Validation and Test data 
+that will be used in the model."""
 dataset = input("Which dataset do you want to read:")
 
 # ------------------------------------------------------------------------------------------
