@@ -79,6 +79,7 @@ classes = ['trivial', 'topological']
 # ------------------------------------------------------------------------------------------
 
 #ask the user
+"""We ask the user which dataset wants to test"""
 dataset = input("Dataset used:")
 model_name = input("Trained model:")
 
