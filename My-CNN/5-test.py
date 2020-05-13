@@ -77,7 +77,8 @@ classes = ['trivial', 'topological']
 #                                   DATASET AND MODEL
 # ------------------------------------------------------------------------------------------
 
-#ask the user
+"""ask the user which dataset wants to used (it has to exist a test folder for this dataset) and which pre-trained model 
+(previously trained with the training.py script) wants to use."""
 dataset = input("Dataset with the test images you want to use:")
 model_name = input("Trained model:")
 
@@ -122,6 +123,8 @@ model.eval()
 # ------------------------------------------------------------------------------------------
 #                                   TEST THE MODEL ON THE TEST SET
 # ------------------------------------------------------------------------------------------
+
+"""we test the pre-trained model in the indicated test dataset and show a summary of the test"""
 
 print('-----------------------------------------------------------')
 print('Testing the model...')
