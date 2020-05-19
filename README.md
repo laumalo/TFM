@@ -58,4 +58,4 @@ during the training of the model. It returns only the summary of the test.
 this parameters are read and used to make a prediction of images of the test set. Also the CAM technique is used in order to visualize the heatmap of the important
 regions during the classification. 
 
-The [ResNet18]() folder contains modified version of the codes `SSH_dataset.py`,`training.py`, `test.py` and `prediction+CAM.py` adapted to the pretrained NN **Resnet18()**. 
+The [ResNet18](https://github.com/laumalo/TFM/tree/master/ResNet18) folder contains modified version of the codes `SSH_dataset.py`,`training.py`, `test.py` and `prediction+CAM.py` adapted to the pretrained NN **Resnet18()**. 
