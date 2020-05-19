@@ -37,7 +37,7 @@ The main results and further discussions of the project can be seen in the Maste
 
 The codes included in the repository are the following: 
 
-[``1-SSH_dataset.py`](https://github.com/laumalo/TFM/blob/master/My-CNN/1-SSH_dataset.py): this code uses the function hamiltonian() already defined in the previous notebook and computes the wavefunctions and the density in matrix (a function for
+[`1-SSH_dataset.py`](https://github.com/laumalo/TFM/blob/master/My-CNN/1-SSH_dataset.py): this code uses the function hamiltonian() already defined in the previous notebook and computes the wavefunctions and the density in matrix (a function for
 plotting this results for to examples is also impremented). Different methods for creating the datasets are used. The datasets are created following a structure of 
 train/test/validation of 50/30/20. A record of all the datasets created is included (but commented) in the code. 
 
