@@ -15,9 +15,15 @@ The project is maintly structured in three parts.
 
   - Creating the databases: where we create the train, test and validation dataset for images labeled into to classes: trivial or topological. We create different variations of the dataset, considering disorder, permutations to be able to later perform methods such as transfer learning and data aumentation that are discussed in the report.  
   
+ ![Non-disorder dataset example](https://github.com/laumalo/TFM/blob/master/images/database.png)
+  
   - Training the model: we consider two models; a CNN trained from scratch and a ResNet model pretrained and used with the test data using transfer learning. 
   
+ ![Image description](link-to-image)
+  
  - Interpretability: once the prediction of the class has been made we used the CAM algorithm to interpret the decision and find the most discriminative regions of the image. 
+ 
+![Image description](link-to-image)
 
 
 ## Results
