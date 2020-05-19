@@ -30,6 +30,7 @@ The main results and further discussions of the project can be seen in the Maste
 ## Codes
 
 The codes included in the repository are the following: 
+
 [``1-SSH_dataset.py`](https://github.com/laumalo/TFM/blob/master/My-CNN/1-SSH_dataset.py): this code uses the function hamiltonian() already defined in the previous notebook and computes the wavefunctions and the density in matrix (a function for
 plotting this results for to examples is also impremented). Different methods for creating the datasets are used. The datasets are created following a structure of 
 train/test/validation of 50/30/20. A record of all the datasets created is included (but commented) in the code. 
@@ -38,6 +39,7 @@ train/test/validation of 50/30/20. A record of all the datasets created is inclu
 The aim of this code is only to test if the dataset is created in a correct way and the labels correspond to the images. 
 
 [`3-cnn_models.py`](https://github.com/laumalo/TFM/blob/master/My-CNN/3-cnn_models.py): contains the definition of the different classes corresponding to each model used in the training, this script has to be imported in the training,testing and prediction script. 
+
 [`4-training.py`](https://github.com/laumalo/TFM/blob/master/My-CNN/4-training.py): this code loads the datasets and trains a convolutional neural network to classify the images. The model used in each case (can be modified by
 changing one line of the code) is imported from `ccn_model.py` where all the classes corresponding with the different scructures for the convolutional neural network 
 are defined. The learned parameters of the learning are saved in a .pt file that will be used later. A summary of the training (its performance) is also created
