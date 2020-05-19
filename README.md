@@ -3,7 +3,6 @@
 by Laura Malo Roset (April-September 2019).
 
 Supervised by Alexandre Dauphin and co-supervised by Patrick Huembeli. 
-
 ICFO (Institut de Ciències Fotòniques) - Quantum Optics Theory group. 
 
 
