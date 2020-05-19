@@ -21,7 +21,7 @@ The project is maintly structured in three parts.
   
  ![Non-disorder and disorder example](https://github.com/laumalo/TFM/blob/master/images/database_disorder.png)
   
- - Interpretability: once the prediction of the class has been made we used the CAM algorithm to interpret the decision and find the most discriminative regions of the image. 
+ - Interpretability of the prediction: once the prediction of the class has been made we used the CAM algorithm to interpret the decision and find the most discriminative regions of the image. 
  
 ![Example of heatmap](https://github.com/laumalo/TFM/blob/master/images/prediction.png)
 
