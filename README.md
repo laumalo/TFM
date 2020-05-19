@@ -28,7 +28,7 @@ The project is maintly structured in three parts.
 
 ## Results
 
-The main results and further discussions of the project can be seen in the Master Thesis report, and more additional information can be found in the slides used for the public defense of the Master Thesis. 
+The main results and further discussions of the project can be seen in the Master Thesis report, and more additional information can be found in the slides used for the defense of the Master Thesis. 
 
 [Report](https://github.com/laumalo/TFM/blob/master/TFM_LauraMalo.pdf) [Slides](https://github.com/laumalo/TFM/blob/master/TFM_LauraMalo.pdf)
 
