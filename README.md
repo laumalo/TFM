@@ -5,7 +5,7 @@ by Laura Malo Roset (April-September 2019).
 Supervised by Alexandre Dauphin and co-supervised by Patrick Huembeli. 
 
 
-# Objective
+## Objective
 This repository contains all the codes needed in my Master Thesis. The project consists on creating datasets formed by wavefunction and density images 
 to be trained and classified between the trivial and the topological phase according to the SSH model. Then, train different models with these datasets to be able to compare the results. And, finaly study the interpertability trhough heatmaps of the decision taken by the neural network. 
 
