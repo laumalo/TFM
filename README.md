@@ -17,13 +17,13 @@ The project is maintly structured in three parts.
   
  ![Non-disorder dataset example](https://github.com/laumalo/TFM/blob/master/images/database.png)
   
-  - Training the model: we consider two models; a CNN trained from scratch and a ResNet model pretrained and used with the test data using transfer learning. 
+  - Training and testing the model: we consider two models; a CNN trained from scratch using the non-disorder dataset and a ResNet model pretrained and used with the test data using transfer learning. Then we test the model with the non-disorder dataset and with the disorder dataset to analize the predictions.
   
- ![Image description](link-to-image)
+ ![Non-disorder and disorder example](https://github.com/laumalo/TFM/blob/master/images/database_disorder.png)
   
  - Interpretability: once the prediction of the class has been made we used the CAM algorithm to interpret the decision and find the most discriminative regions of the image. 
  
-![Image description](link-to-image)
+![Example of heatmap](https://github.com/laumalo/TFM/blob/master/images/prediction.png)
 
 
 ## Results
